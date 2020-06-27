@@ -46,7 +46,7 @@ class Rank:
         im_draw.rectangle((174, 95, 374, 125), fill=(64, 64, 64, 255))
         im_draw.rectangle((174, 95, 174+(int(xp/needed_xp*100))*2, 125), fill=(221, 221, 221, 255))
 
-        im_draw.rectangle((0, 0, 148, 148), fill=(255, 255, 255, 255))
+        im_draw.rectangle((0, 0, 148, 148), fill=(9, 255, 255, 255))
         im.paste(profile_bytes, (10, 10))
 
         buffer = BytesIO()
